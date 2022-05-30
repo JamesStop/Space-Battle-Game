@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: red; */
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.top {
+    
+    height: 30%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.text-display {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-message {
+    font-size: 1.5rem;
+    height: 80%;
+    width: 90%;
+    text-align: center;
+}
+
+.choices-area {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+
+button {
+    height: 50%;
+    width: 10%;
+    margin: 0 2%;
+}
+
+
+
+
+
+
+.split-half {
+    display: flex;
+    width: 35%;
+    height: 70%;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.logs {
+    height: 70%;
+    width: 30%;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.player-ship {
+    height: 50%;
+    width: 50%;
+    border: 2px solid black;
+    background-color: azure;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+.enemy-ship {
+    height: 50%;
+    width: 50%;
+    border: 2px solid black;
+    background-color: rgb(221, 134, 116);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+}
